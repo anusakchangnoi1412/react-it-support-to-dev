@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px
+}
+
+.table {
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid black 1px;
+    border-radius: 15px;
+    width: 95%;
+}
+
+.task-tab {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+}
+
+.table-row {
+  display: flex;
+  align-items: center;
+}
+
+.actions {
+  margin-left: auto; 
+  display: flex;
+  gap: 12px;
+}
+
+.table-row h3 {
+  margin: 0;
+}
+
+.task-done {
+    color: green;
+    text-decoration: line-through;
+}
